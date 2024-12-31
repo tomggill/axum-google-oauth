@@ -2,7 +2,7 @@
 
 `axum-google-oauth` is a barebones example implementation of the `oauth-axum` crate for authenticating with the [Google OAuth 2.0 API](https://developers.google.com/identity/protocols/oauth2) and retrieving user information.
 
-More information about this create can be found in the [crate documentation](https://crates.io/crates/oauth-axum).
+More information about this crate can be found in the [crate documentation](https://crates.io/crates/oauth-axum).
 
 ### Implementation
 
