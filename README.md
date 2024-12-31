@@ -9,4 +9,4 @@ More information about this crate can be found in the [crate documentation](http
 1. Create an OAuth 2.0 Client ID and Client Secret in the Google Cloud Platform Console by following these instructions. See [here](https://support.google.com/cloud/answer/6158849?hl=en).
 2. Clone the repository.
 3. Copy the `.env.example` file, rename it to `.env`, and copy across your Client ID and Client Secret obtained in step 1.
-4. Modify the implementation to suite your requirements.
+4. Modify the implementation to suit your requirements.
