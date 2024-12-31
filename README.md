@@ -10,3 +10,13 @@ More information about this crate can be found in the [crate documentation](http
 2. Clone the repository.
 3. Copy the `.env.example` file, rename it to `.env`, and copy across your Client ID and Client Secret obtained in step 1.
 4. Modify the implementation to suit your requirements.
+
+### How to use
+
+1. Perform `cargo run` in the repository.
+   - Use [cargo watch](https://crates.io/crates/cargo-watch) to enable live reloading.
+2. Make a GET request to the `create_url` endpoint:
+   - `curl http://localhost:3000/`
+3. Open the returned URL in your browser.
+4. Login to your google account.
+5. See the user information in the callback.
