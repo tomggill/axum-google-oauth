@@ -86,8 +86,6 @@ pub async fn callback(
         .ok()
         .unwrap();
 
-    println!("{:?}", access_token);
-
     let google_client = GoogleClient::new(&state.http_client);
     let user_info_result = google_client.fetch_user_info(&access_token).await;
 
